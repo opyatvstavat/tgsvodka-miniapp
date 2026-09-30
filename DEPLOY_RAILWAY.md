@@ -6,11 +6,11 @@
 
 ## 1. Репозиторий
 
-Код: https://github.com/OcherednRra/tgsvodka-miniapp
+Код: https://github.com/opyatvstavat/tgsvodka-miniapp
 
 ## 2. Создать проект
 
-1. [railway.app](https://railway.app) → **New Project** → **Deploy from GitHub repo** → `OcherednRra/tgsvodka-miniapp`.
+1. [railway.app](https://railway.app) → **New Project** → **Deploy from GitHub repo** → `opyatvstavat/tgsvodka-miniapp`.
 2. **Settings** → **Build**:
    - Builder: **Dockerfile**
    - Dockerfile path: `Dockerfile.web`
