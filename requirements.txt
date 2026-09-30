@@ -1,0 +1,11 @@
+telethon
+python-dotenv
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+aiosqlite
+httpx
+python-multipart
+pydantic
+bleach

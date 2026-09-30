@@ -1,0 +1,22 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    env_file:
+      - .env
+    environment:
+      # Matches production: SQLite on the mounted volume, ingest in-process.
+      # Set DATABASE_URL to a postgresql:// URL if you need Postgres locally.
+      SQLITE_PATH: /data/tgsvodka.db
+      MEDIA_CACHE_DIR: /data/media
+      MEDIA_CACHE_MAX_MB: "200"
+      DOCKER: "1"
+    ports:
+      - "8000:8000"
+    volumes:
+      - app_data:/data
+    restart: unless-stopped
+
+volumes:
+  app_data:

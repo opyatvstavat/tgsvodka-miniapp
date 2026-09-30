@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.session
+*.session-journal
+.env
+.venv/
+venv/
+
+# Node
+web/node_modules/
+web/dist/
+
+# IDE
+.idea/
+.vscode/
+
+# OS / local
+assets/
+Thumbs.db
